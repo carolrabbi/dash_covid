@@ -1,0 +1,161 @@
+/* Geral
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body {
+    margin: 0;
+    color: #6d6d6d;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+.navbar {
+    align-items: center;
+    padding: 1.0rem;
+    background: white;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+.navbar__title {
+}
+
+.navbar__title h2 {
+    margin-bottom: 0;
+}
+
+.navbar__brand {
+}
+
+.navbar__brand img {
+    max-height: 2rem;
+}
+
+.capa {
+    display: flex;
+}
+
+
+.mysection {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.mysectiontext {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+}
+
+.explicacao h4, #footer h4 {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+    color: #316395;
+}
+
+.mysectiontext .explicacao p {
+    color: #565656;
+    line-height: 2rem;
+}
+
+.mysectiontext .tags {
+    align-self: baseline;
+}
+
+.mysectiontext .item, myfilters .item {
+    margin-bottom: 2rem;
+}
+
+.mysectionchart {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justfiy-content: center;
+}
+
+.mysectionchart .item {
+}
+
+.mygraphs {
+    width: 100%;
+    height: 100%;
+}
+
+.color_odd .mysectiontext {
+    background-color: rgba(51, 102, 204, 0.1);
+}
+
+.color_even .mysectiontext {
+    background-color: rgba(102, 170, 0, 0.1);
+}
+
+#footer {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100vh;
+}
+
+#footer .item {
+    flex: 1;
+    padding: 3rem 2rem;
+}
+
+#footer_1 {
+    background-color: rgba(217, 217, 217);
+}
+
+#footer_2 {
+    background-color: rgba(203, 213, 232);
+    align-content: flex-end;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+#footer p {
+    font-size: 1.2rem;
+    color: #565656;
+}
+
+.myfilters {
+    display: flex;
+    flex-direction: column;
+}
+
+.myfilters_radio {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+.myfilters_radio label {
+    flex: 1;
+}
+
+#myimgheader {
+}
+
+#myimgheader img {
+    max-height: 100vh;
+}
+
+#mytitleheader {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mytitleheader h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #dc3912;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-align: right;
+}
